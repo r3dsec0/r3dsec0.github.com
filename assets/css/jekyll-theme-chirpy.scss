@@ -16,32 +16,17 @@
 
 :root[data-bs-theme='light'],
 :root:not([data-bs-theme]) {
-  --body-bg: #ECE7DA;
-  --main-bg: #ECE7DA;
-  --text-color: #1B1B18;
-  --link-color: #8F332B;
+  --body-bg: #f6f1e7;
+  --main-bg: #ffffff;
+  --text-color: #1b2430;
+  --heading-color: #1b2430;
+  --link-color: #b8631a;
 }
 
-.thread-bar {
-  height: 14px;
-  margin: 32px 0;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 20'%3E%3Cpath d='M0 10 Q5 1 10 10 T20 10 T30 10 T40 10' stroke='%231B1B18' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
-  background-repeat: repeat-x;
-  background-position: center;
-  background-size: 28px 14px;
-  opacity: 0.85;
-}
-
-.stamp {
-  display: inline-block;
-  font-family: monospace;
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #8F332B;
-  border: 2px solid #8F332B;
-  padding: 2px 8px;
-  border-radius: 2px;
-  transform: rotate(-2deg);
+:root[data-bs-theme='dark'] {
+  --body-bg: #12161d;
+  --main-bg: #1b2430;
+  --text-color: #e7e2d6;
+  --heading-color: #f6f1e7;
+  --link-color: #f2a545;
 }
