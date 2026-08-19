@@ -14,7 +14,7 @@ timezone: Africa/Casablanca
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Open Thread # the main title
+title: The Cyberhut # the main title
 
 tagline: still investigating # it will display as the subtitle
 
@@ -23,24 +23,24 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://openthread.blog"
+url: "https://thecyberhut.net"
 
 github:
-  username: 0xsyspwn # change to your GitHub username
+  username: r3dsec0 # change to your GitHub username
 
 twitter:
-  username: 0xsyspwn # change to your Twitter username
+  username: r3dsec0 # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: 0xsyspwn
+  name: r3dsec0
   email: contact@openthread.blog # change to your email address
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/0syspwn # change to your Twitter homepage
-    - https://github.com/0xsyspwn # change to your GitHub homepage
+    - https://twitter.com/r3dsec0 # change to your Twitter homepage
+    - https://github.com/r3dsec0 # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -99,7 +99,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/img/avatar.webp
+avatar: /assets/img/avatar.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -130,7 +130,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: 0xSysPwn/0xsyspwn.github.com
+    repo: r3dsec0/r3dsec0.github.com"
     repo_id: R_kgDOThQevw
     category: Comments
     category_id: DIC_kwDOThQev84DB33O
