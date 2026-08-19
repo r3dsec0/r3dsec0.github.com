@@ -16,7 +16,7 @@ timezone: Africa/Casablanca
 
 title: The Cyberhut # the main title
 
-tagline: still investigating # it will display as the subtitle
+tagline: notes from the lab # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A security blog — notes on things still being investigated.
