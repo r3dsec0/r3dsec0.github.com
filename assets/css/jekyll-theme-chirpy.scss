@@ -16,17 +16,52 @@
 
 :root[data-bs-theme='light'],
 :root:not([data-bs-theme]) {
-  --body-bg: #f6f1e7;
   --main-bg: #ffffff;
   --text-color: #1b2430;
   --heading-color: #1b2430;
   --link-color: #b8631a;
+  --checkbox-checked-color: #b8631a;
+  --toc-highlight: #b8631a;
+  --tag-hover: #f0e6d6;
+  --card-bg: #ffffff;
+  --btn-share-hover-color: #b8631a;
+
+  /* sidebar stays navy in both modes — a fixed brand anchor */
+  --sidebar-bg: #1b2430;
+  --sidebar-border-color: #2a3644;
+  --sidebar-muted-color: #a8b0bc;
+  --sidebar-active-color: #f2a545;
+  --sidebar-hover-bg: rgb(242 165 69 / 12%);
+  --sidebar-btn-bg: #232e3c;
+  --sidebar-btn-color: #cbd3dc;
+  --site-title-color: #f6f1e7;
+  --site-subtitle-color: #a8b0bc;
+  --avatar-border-color: #2a3644;
+
+  --topbar-bg: rgb(255 255 255 / 80%);
 }
 
 :root[data-bs-theme='dark'] {
-  --body-bg: #12161d;
   --main-bg: #1b2430;
   --text-color: #e7e2d6;
   --heading-color: #f6f1e7;
   --link-color: #f2a545;
+  --checkbox-checked-color: #f2a545;
+  --toc-highlight: #f2a545;
+  --tag-hover: #26313f;
+  --card-bg: #232e3c;
+  --btn-share-hover-color: #f2a545;
+
+  --sidebar-bg: #12161d;
+  --sidebar-border-color: #232e3c;
+  --sidebar-muted-color: #8a94a3;
+  --sidebar-active-color: #f2a545;
+  --sidebar-hover-bg: rgb(242 165 69 / 10%);
+  --sidebar-btn-bg: #1b2430;
+  --sidebar-btn-color: #a8b0bc;
+  --site-title-color: #f6f1e7;
+  --site-subtitle-color: #8a94a3;
+  --avatar-border-color: #232e3c;
+
+  --topbar-bg: rgb(27 36 48 / 70%);
 }
