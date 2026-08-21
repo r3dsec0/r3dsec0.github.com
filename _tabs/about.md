@@ -18,4 +18,4 @@ I'm not writing as an expert — I'm writing as I learn. If something here is
 wrong or incomplete, that's honestly the most useful comment you could
 leave me.
 
-Contact: [contact@openthread.blog](mailto:contact@openthread.blog)
+Contact: [contact@thecyberhut.net](mailto:contact@thecyberhut.net)
