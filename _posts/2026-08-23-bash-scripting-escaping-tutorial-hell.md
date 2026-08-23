@@ -38,11 +38,13 @@ name = "john"
 
 # Correct
 name="john"
+
 ```
 
 the command not found error comes from bash interpreting name as a command, and = and john as arguments for that command.
 
 2. if you want to loop over an array of a certain content type like pictures which could have multiple formats , you can use this:
+
 ```bash 
 #this creates what's called an indexed array
 Pictures=("$FOLDER"/*.{jpg,jpeg,png,gif,webp,avif,bmp,tiff,tif,heic,heif,ico,cur,apng})
@@ -52,15 +54,20 @@ for pic in "${Pictures[@]}"; do
   echo "Processing: $pic"
 done
 #the [@] is important as it gets all the elements in that array
+
 ```
 
 3. make sure you close for loops, while loops, cases, and if statements. this causes all sorts of issues
 4.  if you want colored echo statements to work, always append -e to the echo command.
 5. instead of checking if a directory exists and create it if doesn't exist, you don't need an if code block. just a oneliner is enough.
+
 ```bash 
 mkdir -p "$HOME/Pictures"
+
 ```
-6. shebangs have a nuance to them.
+
+1. shebangs have a nuance to them.
+
 ```bash 
 #!/bin/bash              #this is a commonly used shebang
 
@@ -69,6 +76,7 @@ mkdir -p "$HOME/Pictures"
 ```
 
 the first one checks for bash in /bin which if doesn't exist there, the script fails. the second one on the other hand, it searches your entire environment to find it. once it is found, the script executes.
+
 7. if you want to pass flags to your scripts, use getopts in a while loop.
 
 ```bash 
@@ -83,10 +91,13 @@ while getopts "d:n" opt; do
     \?) echo "Usage: $0 [-d folder] [-n]" >&2; exit 1 ;;
     esac
 done
+
 ```
+
 the d:n are the flags passed to the script. if there is a colon after a flag definition, that means it expects a value. if not, it is a boolean. the -d here expects a folder name as you can see. the -n is the boolean. if you pass -n then DRY_RUN becomes true.
 
 8. shell options. take a look at the defined indexed array below. not every folder you run this against will have all those file formats. so, we have to wrap this in a shell option.
+
 ```bash 
 #this will create literal glob strings along the actual pics
 Pictures=("$FOLDER"/*.{jpg,jpeg,png,gif,webp,avif,bmp,tiff,tif,heic,heif,ico,cur,apng})
