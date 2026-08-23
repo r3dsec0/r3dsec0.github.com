@@ -32,6 +32,7 @@ this script took fewer lines than the other ones.
 these are very basic scripts. and despite being basic, i had to do a lot of debugging during which i learned some very important things. i finally got started doing the actual work and it feels so cool to create a script and get it to work. i can't believe i'm only doing this just now. i should have started sooner but hey better late than never. here are 8 things i learned during these projects:
 
 1. no spaces when defining arguments.
+
 ```bash 
 # Incorrect (causes a command not found error)
 name = "john"
